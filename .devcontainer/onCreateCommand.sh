@@ -18,7 +18,7 @@
 
 # This script is run inside the container after the repo has been cloned.
 # Launch yarn to install dependencies and build the project.
-yarn
+# yarn
 
 # build podman-desktop
-MODE=production yarn run build && yarn run electron-builder build --linux --dir --config .electron-builder.config.cjs
+# MODE=production yarn run build && yarn run electron-builder build --linux --dir --config .electron-builder.config.cjs
