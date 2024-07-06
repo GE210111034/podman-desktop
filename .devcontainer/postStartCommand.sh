@@ -34,4 +34,4 @@ websockify --web=/usr/share/novnc localhost:9000 localhost:5900 &
 
 # launch the website rendering
 echo "Launching Website"
-cd website && yarn start
+# cd website && yarn start
